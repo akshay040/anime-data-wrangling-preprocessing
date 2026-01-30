@@ -20,7 +20,7 @@ Key steps include data cleaning, type standardization, feature engineering, outl
 
 ## How to Run
 1. Download the two datasets from Kaggle and place them locally (do not commit raw data).
-2. Open `src/data_wrangling_preprocessing.Rmd` in RStudio.
+2. Open `src/Data Wrangling.Rmd` in RStudio.
 3. Install required packages (dplyr, tidyr, stringr, ggplot2, etc.).
 4. Knit the report / run the script to reproduce outputs.
 
