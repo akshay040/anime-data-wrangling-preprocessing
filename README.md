@@ -26,5 +26,5 @@ Key steps include data cleaning, type standardization, feature engineering, outl
 
 ## Outputs
 - Report: `report/Data_Wrangling_Report.pdf`
-- (Optional) Clean dataset: `output/cleaned_transformed_dataset.csv`
+- Clean dataset: `output/cleaned_transformed_dataset.csv`
 
