@@ -106,30 +106,42 @@ This output supports:
    output/cleaned_transformed_dataset.csv
 
 
-### Techniques Used
+---
 
-Data wrangling: join/merge, filtering, column selection, parsing
+## Techniques Used
+- **Data Wrangling**
+  - Join/merge datasets, filtering, column selection, parsing
+- **Type Handling**
+  - Numeric conversion, date parsing, categorical factor handling
+- **Reshaping**
+  - Split compound fields into meaningful columns (e.g., episodes/type, airing years)
+- **Feature Engineering**
+  - `Episode_Category`, `Genre_Count`
+- **Data Validation**
+  - Missingness checks, inconsistency checks, **IQR-based outlier detection**
+- **Transformations**
+  - Min–max normalization (0–1), log transformation (`log1p`) for skew reduction
+- **Visualization**
+  - Boxplots/histograms to validate distributions and highlight outliers
 
-Type handling: numeric conversion, date parsing, categorical factor handling
+---
 
-Reshaping: splitting compound columns into meaningful fields
+## Tools & Skills Demonstrated
+### Libraries / Tools
+- **R**: `dplyr`, `tidyr`, `stringr`, `ggplot2`, `magrittr`, `kableExtra`
 
-Feature engineering: Episode_Category, Genre_Count
+### Analytics Skills
+- Data Cleaning & Preparation  
+- Data Quality Checks  
+- Feature Engineering  
+- Outlier Detection (**IQR**)  
+- Normalization (Min–Max Scaling)  
+- Log Transformation (`log1p`)  
+- Building **analysis-ready datasets** for EDA/modeling
 
-Data validation: missingness checks, inconsistency checks, IQR outlier detection
+---
 
-Transformations: min–max normalization (0–1), log transformation (log1p)
-
-Visualization: boxplots/histograms to validate distributions and outliers
-
-### Tools & Skills Demonstrated
-
-R: dplyr, tidyr, stringr, ggplot2, magrittr, kableExtra
-
-Data Cleaning • Data Quality • Feature Engineering • Outlier Detection (IQR)
-
-Normalization • Log Transformation • Analysis-ready dataset creation
-
-
-Akshay Kumar
+## Author
+**Akshay Kumar**  
 GitHub: https://github.com/akshay040
+
