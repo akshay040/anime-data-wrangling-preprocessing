@@ -144,4 +144,3 @@ This output supports:
 ## Author
 **Akshay Kumar**  
 GitHub: https://github.com/akshay040
-
